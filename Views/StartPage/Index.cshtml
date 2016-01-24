@@ -5,9 +5,11 @@
 }
 
 <div class="row">
-    <h1>Startpage!</h1>
     <div class="jumbotron">
-        <h1>Our first pagetype</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="container">
+            <h1>@Html.PropertyFor(x=> x.Heading)</h1>
+            <p>@Html.PropertyFor(x=> x.MainBody)</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
     </div>
 </div>

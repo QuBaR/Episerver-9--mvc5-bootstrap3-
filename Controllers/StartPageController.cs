@@ -13,7 +13,7 @@ namespace Episerver9.Controllers
         // GET: StartPage
         public ActionResult Index(StartPage currentPage)
         {
-            return View();
+            return View(currentPage);
         }
     }
 }
